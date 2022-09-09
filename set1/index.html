@@ -1,0 +1,145 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>date</title>
+ </head>
+ <body>
+
+
+ 	<style type="text/css">
+ 		
+
+ 		* {
+ 			padding: 0;
+ 			margin: 0;
+ 			box-sizing: border-box;
+
+ 		}
+
+
+body {
+	background-color: black;
+}
+ 		.container {
+
+ 			width: 20%;
+ 			height:80vh;
+ 			background-color: black;
+ 			margin: auto;
+ 			position: relative;
+ 			top: 50px;
+ 			box-shadow: 0 0 200px indianred;
+ 			animation-name: mov;
+ 			animation-duration: 2s;
+ 			animation-timing-function: ease-in-out;
+ 			animation-iteration-count: infinite;
+ 			animation-direction:reverse;
+
+
+
+ 		}
+
+
+ 		@keyframes mov{
+
+ 			from{
+ 				box-shadow: 0 0 200px indianred;
+ 			}
+
+ 			to{
+ 				box-shadow: 0 0 0px indianred;
+ 			}
+ 		}
+
+ 		input[type='text']{
+ 			padding: 15px;
+ 			border: none;
+ 			outline: none;
+ 			 transition: 2s;
+ 			 margin-left: -110px;
+ 			 box-shadow: 0 0 5px grey;
+ 		}
+
+ 		.cal {
+ 					padding: 15px;
+ 			border: none;
+ 			outline: none;
+ 			color: white;
+ 			transition: 1s;
+ 			background-color: indianred;
+
+
+ 		}
+.one {
+		padding: 15px;
+ 			border: none;
+ 			outline: none;
+ 			color: white;
+ 			transition: 1s;
+ 			margin: 20px;
+ 			font-weight:  ;
+ 			background-color:  indianred;
+
+
+}
+.one:hover {
+	background-color: lightgrey;
+	transition: 1s;
+}
+
+ 
+ 	</style>
+<div class="container">
+	<div class="co">
+	<input type="text" id="text" name="" placeholder="Place in your values"><button class="cal" onclick="eva()">calc</button>
+
+	<div class="con">
+		
+		<button class="one" onclick="show('1')">1</button>
+		<button class="one" onclick="show('2')">2</button>
+		<button class="one" onclick="show('3')">3</button>
+		<button class="one" onclick="show('4')">4</button>
+		<button class="one" onclick="show('5')">5</button>
+		<button class="one" onclick="show('6')">6</button>
+		<button class="one" onclick="show('7')">7</button>
+		<button class="one" onclick="show('8')">8</button>
+		<button class="one" onclick="show('9')">9</button>
+		<button class="one" onclick="show('0')">0</button>
+		<button class="one" onclick="show('+')">+</button>
+		<button class="one" onclick="show('-')">-</button>
+		<button class="one" onclick="show('/')">/</button>
+		<button class="one" onclick="show('*')">*</button>
+		<button class="one" onclick="back()">Bs</button>
+		
+
+		 
+	 
+	 
+	</div>
+</div>
+
+<h2 style="text-align: center;"><img src="azealia6.png" width='50px'></h2>
+ </div>
+
+
+ <script type="text/javascript">
+ 	function eva(){
+ 		let a  = document.getElementById('text').value; 
+ 		let b = eval(a)
+ 		 document.getElementById('text').value = b;
+ 	}
+ 	function show(val){
+ document.getElementById('text').value += val;
+ 	}
+ 	function back(){
+ let a  = document.getElementById('text').value; 
+ let b = a.slice('1')
+  document.getElementById('text').value = b
+ 	}
+ </script>
+
+ 
+ </body>
+ </html>

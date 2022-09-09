@@ -1,0 +1,440 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+ 
+html {
+	scroll-behavior: smooth;
+ 
+}
+
+
+
+
+ 
+nav {
+	width: 100%;
+	height: 80px;
+	background-color:transparent ;
+	}
+
+nav .logo {
+	color: black ;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 80px;
+	margin: 0 80px;
+}
+
+nav ul {
+	float: right;
+	margin-right:  40px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 43px;
+	line-height: 80px;
+}
+
+nav a {
+ 
+	 
+}
+ 
+nav a:hover {
+
+	text-decoration: none;
+}
+
+ 
+  nav #icon {
+	font-size: 30px;
+	line-height: 80px;
+	float: right;
+	 margin-right: 40px;
+	 display: none;
+	 color: black;
+	 cursor: pointer;
+	 font-weight: bolder;
+}
+
+@media screen and (max-width: 750px){
+
+
+ 
+	.rvh {
+
+		margin-top: -100px;
+	}
+
+
+	.ff {
+
+		margin-top: -40px;
+
+	}
+
+ #mapcanvas{
+     height:400px;
+     
+ }
+
+
+ 
+ 
+.az{
+		 margin-bottom: -200px;
+} 
+ 
+.jh{
+	margin-bottom: 50px;
+}
+	.ff {
+
+		margin-bottom: 30px;
+
+	}
+
+
+.upp {
+ 
+ margin-bottom: -80px;
+
+
+}
+
+ .move {
+
+		margin-left: 20px;
+		margin-top: 100px;
+	}
+
+
+.move input{
+
+	width: 90%;
+
+}
+
+.move textarea{
+
+	width: 90%;
+
+}
+
+ 
+.lays {
+	margin: 30px;
+}
+
+
+.lse {
+	margin-top: 100px;
+}
+
+.ssas {
+	margin-top: 200px;
+}
+ 
+ 
+	nav .logo {
+			margin: 0 30px;
+	}
+	nav #icon {
+		display: block;
+	 
+	}
+
+	nav ul {
+		position: fixed;
+		width: 100%;
+		height: 1vh;
+		 
+		background-color:#1b1b1b;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all 1s;
+		opacity: 0;
+
+	}
+
+	nav ul.show{
+		left: 50%;
+			height: 100vh;
+			opacity: 1;
+	 
+	 
+	}
+	#ds {
+
+		padding: 20px;
+	}
+
+	nav li {
+		display: block;
+		line-height: 30px;
+		margin: 50px;
+	 
+	}
+
+	nav a {
+	    
+	   margin-right:200px;
+	   color: white;
+ 
+	}
+ 
+}
+
+
+.hero {
+
+
+	background-image: url('../set1/xu-haiwei-fv1EFjgIb94-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center ;
+	height: 650px;
+}
+
+
+.upp {
+
+
+	margin-top: 200px;
+}
+
+ .herot{
+	position: absolute;
+	top: 36%;
+	left: 5%;
+
+
+}
+
+
+ 
+.herot h2 {
+
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 59px;
+	text-transform: uppercase;
+	 text-shadow: 0 0 3px lightslategray;
+
+}
+ 
+ .herot p {
+ 
+ }
+ 
+.lse {
+	align-self: center;
+}
+
+.lse h4 {
+	text-transform: uppercase;
+	margin-bottom: 40px;
+ 
+
+}
+
+.lays{
+	height: 300px;
+background-color: slategray;
+ 
+
+}
+
+ 
+.you {
+background: url('../set1/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg');
+background-size: cover;
+ 
+}	
+
+  
+.and {
+background: url('../set1/georgie-cobbs-muOHbrFGEQY-unsplash.jpg');
+background-size: cover;
+ 
+}
+ 
+.them {
+background: url('../set1/screen-post-rVcxGBT80j8-unsplash.jpg');
+background-size: cover;
+ 
+}
+ 
+.las {
+
+	margin-top: 200px;
+	margin-bottom: 50px;
+
+}
+
+
+.sasha {
+	margin-top: 100px;
+ 
+}
+ 
+ .uni {
+ 	margin-top: 200px;
+ 	background-color: black;
+ background: url('../set1/josh-nuttall-xl2piFfdzyA-unsplash.jpg');
+ background-size: cover;
+ background-position: center;
+ height: 400px;
+ 
+ 
+ }
+
+ .ms {
+ 	  
+ }
+
+
+.az{
+		position: relative;
+		margin-top: 50%;
+
+} 
+
+.as {
+
+	 	color: white;
+ 	letter-spacing: 5px;
+
+ 		position: relative;
+		top: 50%;
+}
+
+
+
+ .lays i  {
+font-size: 100px;
+position: relative;
+top: 	40%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: lightgray;
+text-shadow: 0 0 1px grey;
+opacity: 0;
+
+ }
+
+ .lays p {
+text-align: center;             
+position: relative;
+top: 	40%;
+left: 50%;
+ text-transform: uppercase;
+font-size: 14px;
+transform: translate(-50%, -50%);
+color: lightgray;
+opacity: 0;
+
+ }
+
+ 
+.zz {
+	margin-top: 100px;
+}
+
+.cont {
+
+	margin-top: 200px;
+}
+ 
+#map {
+  height: 400px;
+ 
+  width: 100%;
+ }
+
+ .btnone , .btntwo{
+ 	padding: 14px;
+ 	width: 70%;
+ 	margin:  15px 0 15px 0;
+ 	border: 1px solid transparent;
+ 	box-shadow: 0 0 10px lightslategray;
+ 	border-radius: 10px;
+ 	outline: none;
+ }
+ 
+.btnone , .btntwo:hover {
+	outline: none;
+}
+
+ 
+ .sh {
+ 	padding: 30px;
+ text-shadow: 1px solid transparent;
+ box-shadow: 0 0 10px lightslategray;
+width: 70%;
+margin-bottom: 10px;
+outline: none;
+border: none;
+height: 120px;
+margin-top: 10px;
+border-radius: 20px;
+ }
+
+
+
+ .az {
+
+ 	color: white;
+ 	letter-spacing: 5px;
+ 	animation-name: mo;
+ 	animation-duration: 2s;
+ 	animation-timing-function: ease;
+ 	animation-iteration-count: infinite;
+
+
+ 
+ 
+  
+ 
+ }
+
+
+.jh {
+
+margin-top: 100px;
+}
+
+@keyframes mo {
+
+	from{
+		margin-left: -200px;
+
+	}
+
+	to {
+		margin-left: 0px;
+	}
+ }
+ 
+
+ .sasas {
+ 	display: inline-block;
+ margin-left: 10px;
+ 	margin-right: 20px;
+ 
+ 	position:relative;
+ }
+
+ 
+ .ls {
+ 	margin-top: -50px;
+ }
+
+ 
